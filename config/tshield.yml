@@ -1,0 +1,13 @@
+request:
+  # wait time for real service
+  timeout: 8
+# list of domains that will be used
+domains:
+  # Base URI of service
+  'http://localhost:3000':
+    # name to identify the domain in the generated files
+    name: 'service'
+    # paths list of all services that will be called
+    paths:
+      - /foo
+      - /bar
